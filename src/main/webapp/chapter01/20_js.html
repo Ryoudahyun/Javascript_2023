@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var gender = 'F';
+		var age = 15;
+		
+		if(gender == "M"){
+			if(age >= 20){
+//				document.write('성인 남자입니다.')
+				result = "성인 남자";
+			}else{
+//				document.write('남성 미성년자입니다.')
+				result = "남성 미성년자";
+			}
+		}else if(gender = 'F'){
+			if(age >= 20){
+//				document.write('성인 여자 입니다.')
+				result = '성인 여자';
+			}else{
+//				document.write('여성 미성년자 입니다.')
+				result = '여성 미성년자';
+			}
+		}
+			
+		document.write("당신은 " + result + "<p/>");
+	</script>
+</body>
+</html>
